@@ -18,7 +18,8 @@ function whileLoop(number){
 
     while (number > 0) {
       console.log(`"My number is ${number}"`)
-      return "done"
+      --number
       }
 
+      
 }
