@@ -10,7 +10,7 @@ function forLoop(array){
     }
     else{
       array = [`"I am ${i} strange loops"`, ...array]
-    }  
+    }
 }
   return array
 }
