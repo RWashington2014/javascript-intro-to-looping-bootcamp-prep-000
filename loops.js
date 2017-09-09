@@ -8,7 +8,7 @@ function forLoop(array){
 
       if (i === 1) {
         array = array.shift("I am 1 strange loop")//[`"I am 1 strange loops."`, ...array]
-        return array
+        console.log(array)
       }
       else {
         array = [`"I am ${i} strange loops."`, ...array]
