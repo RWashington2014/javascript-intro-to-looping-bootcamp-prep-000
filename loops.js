@@ -2,7 +2,7 @@
 
 
 function forLoop(array){
-    var array = []
+    var i = 0
 
   for(let i = 0; i < 25; i++){
     if(i === 1){
