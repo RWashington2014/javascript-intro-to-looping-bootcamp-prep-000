@@ -20,6 +20,6 @@ function whileLoop(number){
       console.log(`"My number is ${number}"`)
       --number
       }
-
-      
+      return "done"
 }
+
