@@ -2,16 +2,16 @@
 
 
 function forLoop(array){
-  //  var i = 0
+  
 
   for(let i = 0; i < 25; i++){
 
       if (i === 1) {
-        array = ["I am 1 strange loops.", ...array]
+        array = [...array, "I am 1 strange loop."]
 
       }
       else {
-        array = [`"I am ${i} strange loops."`, ...array]
+        array = [...array, `"I am ${i} strange loops."`]
       }
 }
   return array
