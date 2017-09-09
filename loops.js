@@ -6,12 +6,9 @@ function forLoop(array){
     var string
 
   for(let i = 0; i < 25; i++){
-    if(i === 1){
+    if(i === 1)
       array = [string]
-    }
-    else{
-      array = [`"I am ${i} strange loops"`, ...array]
-    }
+  
 }
   return array
 }
