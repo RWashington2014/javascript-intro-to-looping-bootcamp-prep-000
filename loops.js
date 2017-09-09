@@ -3,7 +3,6 @@
 
 function forLoop(array){
     var i = 0
-    var string
 
   for(let i = 0; i < 25; i++){
 
