@@ -7,7 +7,7 @@ function forLoop(array){
 
   for(let i = 0; i < 25; i++){
 
-      array = [string, ...array]
+      array = [`"I am ${i} strange loops."`, ...array]
 
 }
   return array
